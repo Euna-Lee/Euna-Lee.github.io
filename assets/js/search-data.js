@@ -11,14 +11,14 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -49,9 +49,9 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+            },},{id: "projects-super-food-chain",
+          title: 'Super Food Chain',
+          description: "A action snake-like game where you assemble a chain of flavorful allies in a battle against enemies for culinary domination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-project-2",
@@ -113,7 +113,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Euna-Lee", "_blank");
+          window.open("https://www.linkedin.com/in/euna-lee-a02628264", "_blank");
         },
       },{
         id: 'social-rss',
