@@ -18,6 +18,17 @@
       document.documentElement.setAttribute('data-theme-setting', setting);
     })();
   </script>
+  <!-- Critical theme colors before Bootstrap/MDB/main.css (prevents white flash) -->
+  <style>
+    html[data-theme='dark'] {
+      color-scheme: dark;
+      background-color: #1c1c1d;
+    }
+    html[data-theme='dark'] body {
+      background-color: #1c1c1d;
+      color: #e8e8e8;
+    }
+  </style>
 {% endif %}
 
 <!-- Metadata, OpenGraph and Schema.org -->
