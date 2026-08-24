@@ -1,3 +1,25 @@
+{% if site.enable_darkmode %}
+  <!-- Apply saved theme before CSS to avoid a light/dark flash -->
+  <script>
+    (function () {
+      var setting = localStorage.getItem('theme');
+      if (setting !== 'light' && setting !== 'dark' && setting !== 'system') {
+        setting = 'light';
+        localStorage.setItem('theme', setting);
+      }
+      var theme = setting;
+      if (setting === 'system') {
+        theme =
+          window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+            ? 'dark'
+            : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.setAttribute('data-theme-setting', setting);
+    })();
+  </script>
+{% endif %}
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
