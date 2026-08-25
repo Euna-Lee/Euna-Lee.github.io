@@ -5,13 +5,13 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 1
-display_categories: []
+display_categories: [work, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
+{% if site.enable_project_categories and page.display_categories.size > 0 %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">

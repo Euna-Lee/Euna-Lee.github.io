@@ -5,7 +5,6 @@ description: A action snake-like game where you assemble a chain of flavorful al
 img: assets/img/SuperFoodChain.png
 importance: 1
 category: work
-related_publications: true
 ---
 
 <!-- Every project has a beautiful feature showcase page.
