@@ -23,12 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "projects-super-food-chain",
+        },{id: "projects-super-food-chain",
           title: 'Super Food Chain',
           description: "A action snake-like game where you assemble a chain of flavorful allies in a battle against enemies for culinary domination.",
           section: "Projects",handler: () => {
