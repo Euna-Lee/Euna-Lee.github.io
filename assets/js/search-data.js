@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "projects-super-food-chain",
           title: 'Super Food Chain',
-          description: "A action snake-like game where you assemble a chain of flavorful allies in a battle against enemies for culinary domination.",
+          description: "An action snake-like game where you assemble a chain of flavorful allies in a battle against enemies for culinary domination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-image2stylegan",
