@@ -16,18 +16,25 @@ A link to downloading and finding more about the game is here: [Super Food Chain
 | **Role** | Programmer (physics collisions and companion logic) |
 | **Team** | 8 programmers and artists |
 | **Timeline** | Jan. 2025 – May 2025 |
-| **Tech** | Java, LibGDX, Box2D |
+| **Skills** | Java, LibGDX, Box2D |
+
+<div class="mt-5"></div>
 
 ## Overview
 
 You play as an assortment of fruits fighting through a kitchen full of hungry enemies. Defeat pests, collect the coins they drop, and spend them to recruit more ingredients into a growing snake-like chain to defeat the boss(es)! A bigger chain has more stacked effects, but it's also harder to steer and even easier to lose. Manage your resources and claim victory over the kitchen!
+
+<div class="mt-5"></div>
 
 ## Gameplay
 
 - **15 levels** with escalating difficulty
 - **3 bosses**, each with a unique telegraphed attack pattern: the Rat, the Chopsticks, and Chef
 - **5 companions** with distinct abilities: Strawberry, Pineapple, Garlic, Avocado, and Blue Raspberry
-- A **journal** that fills in as you discover companions and enemies, and a **level select** that unlocks as you progress
+- **Journal** that fills in as you discover companions and enemies
+- **Level select** that unlocks as you progress
+
+<div class="mt-5"></div>
 
 ## Contributions
 
@@ -36,13 +43,20 @@ You play as an assortment of fruits fighting through a kitchen full of hungry en
 - Designed and implemented each companion and their unique ability
 - Playtested and rebalanced difficulty based on feedback, tuning the game for its target audience of 10-15 year olds
 
+<div class="mt-5"></div>
+
 ## Challenges
 
-**Working across programmers and artists.** This was my first large-scale game with a mixed team, and I hadn't anticipated how easily programmers and artists could end up with different visions of what was needed. Because features were so intertwined, we also had to explain our code to each other constantly, even while splitting up the work.
+**Working across programmers and artists.**
+This was my first large-scale game with a mixed team, and I hadn't anticipated how easily programmers and artists could end up with different visions of what was needed. Because features were so intertwined, we also had to explain our code to each other constantly, even while splitting up the work.
 
-**Learning Box2D.** I owned collisions, which meant learning Box2D from scratch. It was confusing at first and caused disruptive bugs that took hours to track down, but getting it right taught me how to debug systematically.
+**Learning Box2D.**
+I owned collisions, which meant learning Box2D from scratch. It was confusing at first and caused disruptive bugs that took hours to track down, but getting it right taught me how to debug systematically.
 
-**Balancing with a small playtest pool.** Our testers were either too good or too bad, so feedback was hard to read. We ultimately made the game harder than we first intended, which had to be simplified further to fit our showcase audience of 10-15 year olds.
+**Balancing with a small playtest pool.**
+Our testers were either too good or too bad, so feedback was hard to read. We ultimately made the game harder than we first intended, which had to be simplified further to fit our showcase audience of 10-15 year olds.
+
+<div class="mt-5"></div>
 
 ## Gallery
 
